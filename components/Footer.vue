@@ -9,13 +9,19 @@
           </h2>
           <ul class="-ml-5">
             <li class="ml-5 text-lg hover:text-white text-gray-300  my-2 ">
-              <a href="#">Tentang</a>
+              <nuxt-link to="about">
+                Tentang
+              </nuxt-link>
             </li>
             <li class="ml-5 text-lg hover:text-white text-gray-300  my-2 ">
-              <a href="#">Virtual Tour</a>
+              <nuxt-link to="turvis">
+                Virtual Tour
+              </nuxt-link>
             </li>
             <li class="ml-5 text-lg hover:text-white text-gray-300  my-2 ">
-              <a href="#">Shop</a>
+              <nuxt-link to="shop">
+                Shop
+              </nuxt-link>
             </li>
           </ul>
         </div>
@@ -25,7 +31,9 @@
           </h2>
           <ul class="-ml-5">
             <li class="ml-5 text-lg hover:text-white text-gray-300  my-2 ">
-              <a href="#">Mitra kami</a>
+              <nuxt-link to="about">
+                Mitra kami
+              </nuxt-link>
             </li>
           </ul>
         </div>

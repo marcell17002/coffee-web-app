@@ -108,7 +108,7 @@
           </div>
         </div>
 
-        <div class=" lg:flex lg:justify-evenly flex-row py-20 md:pt-20 md:px-10 items-center">
+        <div class=" pt-20 lg:flex lg:justify-evenly flex-row py-20 md:pt-20 md:px-10 items-center">
           <div>
             <h1 class="text-green-700 font-bold text-3xl">
               What others say about us
@@ -126,7 +126,7 @@
             </div>
           </div>
           <div class=" flex lg:justify-end justify-center ">
-            <div class=" md:max-w-2xl -pt-10 sm:-pl-32 ">
+            <div class=" max-w-xs md:max-w-2xl -pt-10 sm:-pl-32 ">
               <transition-group class="flex justify-center items-center overflow-hidden" tag="div">
                 <div v-for="slide in slides" :key="slide.id" class=" transition ease-in py-10 duration-150 ">
                   <div class="w-96 lg:ml-10 flex ml-4  items-start md:mt-10 bg-white h-full p-5 rounded-lg shadow-lg">

@@ -17,7 +17,7 @@
               <h1 class="text-md md:text-lg xl:px-18  tracking-wide text-gray-700 font-bold ">
                 "I want to see my design changing the world. And this was a step closer."
               </h1>
-              <h1 class="text-sm md:text-md xl:px-18  tracking-wide text-gray-700 font-normal ">
+              <h1 class="text-sm md:text-md xl:px-18 pt-3 tracking-wide text-gray-700 font-normal ">
                 Fatema, Product Designer
               </h1>
             </div>
@@ -28,7 +28,7 @@
               <h1 class="text-md md:text-lg xl:px-18  tracking-wide text-gray-700 font-bold ">
                 "I want to see my design changing the world. And this was a step closer."
               </h1>
-              <h1 class="text-sm md:text-md xl:px-18  tracking-wide text-gray-700 font-normal ">
+              <h1 class="text-sm md:text-md xl:px-18  pt-3 tracking-wide text-gray-700 font-normal ">
                 Fatema, Product Designer
               </h1>
             </div>

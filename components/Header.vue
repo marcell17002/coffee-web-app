@@ -5,18 +5,26 @@
         <img class="h-20" src="~/assets/img/logo.png">
         <div class="ml-20 hidden md:block md:-ml-4 lg:ml-4">
           <ul class="flex p-5">
-            <li class="ml-5 text-xl hover:text-green-900 text-gray-500 hover:border-green-900 border-transparent border-b-2 pb-5 ">
-              <a href="#">Home</a>
-            </li>
-            <li class="ml-5 text-xl hover:text-green-900 text-gray-500 hover:border-green-900 border-transparent border-b-2 pb-5 ">
-              <a href="#">Virtual Tour </a>
-            </li>
-            <li class="ml-5 text-xl hover:text-green-900 text-gray-500 hover:border-green-900 border-transparent border-b-2 pb-5 ">
-              <a href="#">Shop</a>
-            </li>
-            <li class="ml-5 text-xl hover:text-green-900 text-gray-500 hover:border-green-900 border-transparent border-b-2 pb-5">
-              <a href="#">About</a>
-            </li>
+            <nuxt-link to="/">
+              <li class="ml-5 text-xl hover:text-green-900 text-gray-500 hover:border-green-900 border-transparent border-b-2 pb-5 ">
+                Home
+              </li>
+            </nuxt-link>
+            <nuxt-link to="turvis">
+              <li class="ml-5 text-xl hover:text-green-900 text-gray-500 hover:border-green-900 border-transparent border-b-2 pb-5 ">
+                Virtual Tour
+              </li>
+            </nuxt-link>
+            <nuxt-link to="shop">
+              <li class="ml-5 text-xl hover:text-green-900 text-gray-500 hover:border-green-900 border-transparent border-b-2 pb-5 ">
+                Shop
+              </li>
+            </nuxt-link>
+            <nuxt-link to="about">
+              <li class="ml-5 text-xl hover:text-green-900 text-gray-500 hover:border-green-900 border-transparent border-b-2 pb-5">
+                About
+              </li>
+            </nuxt-link>
           </ul>
         </div>
       </div>
@@ -45,17 +53,17 @@
         </div>
       </div>
     </div>
-    <div :class="open ? 'block': 'hidden'" class="w-full md:hidden flex-grow md:flex md:items-center md:w-auto px-5 my-10 border-b-2 md:border-b-0 pb-5">
+    <div :class="open ? 'block': 'hidden'" class="w-full md:hidden flex-grow md:items-center md:w-auto px-5 my-10 border-b-2 md:border-b-0 pb-5">
       <div class="text-sm md:flex-grow md:hidden">
-        <a href="#responsive-header" class=" block text-xl hover:text-green-900 text-gray-500  pb-5 ">
+        <nuxt-link to="/" class=" block text-xl hover:text-green-900 text-gray-500  pb-5 ">
           Home
-        </a>
-        <a href="#responsive-header" class=" block text-xl hover:text-green-900 text-gray-500  pb-5 ">
+        </nuxt-link>
+        <nuxt-link to="turvis" class=" block text-xl hover:text-green-900 text-gray-500  pb-5 ">
           Virtual Tour
-        </a>
-        <a href="#responsive-header" class=" block text-xl hover:text-green-900 text-gray-500  pb-5 ">
+        </nuxt-link>
+        <nuxt-link to="about" class=" block text-xl hover:text-green-900 text-gray-500  pb-5 ">
           About
-        </a>
+        </nuxt-link>
         <div class="flex justify-between mt-3">
           <div class="flex">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-5 text-green-700 " viewBox="0 0 20 20" fill="currentColor">
