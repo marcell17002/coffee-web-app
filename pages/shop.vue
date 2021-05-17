@@ -36,229 +36,63 @@
       </div>
 
       <div class="pt-20 md:pt-52 mb-10">
-        <h1 class="text-2xl px-5 md:text-3xl xl:px-18 md:px-14 tracking-wide text-gray-700 font-bold md:text-center">
-          Lorem ipsum dolor sit amet, consectetur
+        <h1 class="headline mx-5">
+          Lorem ipsum dolor sit amet,FRST
         </h1>
 
         <div class="grid grid-cols-3 gap-2 pt-20 justify-items-center">
-          <div class="p-5 shadow-sm">
-            <div class=" flex sm:hidden justify-end my-2 ">
-              <div class=" text-yellow-400 text-xs md:text-md font-bold border-2 px-2 border-yellow-400 rounded-md ">
-                HOT
-              </div>
-            </div>
-            <div class="flex justify-center">
-              <img class=" h-28 md:h-60 rounded-2xl md:rounded-md  filter object-cover " src="~/assets/img/shop-product-1.png">
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="flex pt-5">
-                <div>
-                  <h1 class="text-green-800 text-xs md:text-lg font-semibold ">
-                    Kopi Arabika Halu Natural
-                  </h1>
-                  <h1 class="font-semibold pt-3 text-xs md:text-sm text-green-500">
-                    Rp 115 000
-                  </h1>
-                </div>
-              </div>
-              <div class="hidden sm:flex mt-5 relative text-yellow-400 font-semibold border-2 px-2 border-yellow-400 rounded-md ml-7 ">
-                HOT
-              </div>
-            </div>
-          </div>
-
-          <div class="p-5 shadow-sm">
-            <div class=" flex sm:hidden justify-end my-2 ">
-              <div class=" text-yellow-400 text-xs md:text-md font-bold border-2 px-2 border-yellow-400 rounded-md ">
-                HOT
-              </div>
-            </div>
-            <div class="flex justify-center">
-              <img class=" h-28 md:h-60 rounded-2xl md:rounded-md  filter object-cover " src="~/assets/img/shop-product-2.png">
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="flex pt-5">
-                <div>
-                  <h1 class="text-green-800 text-xs md:text-lg font-semibold ">
-                    Kopi Arabika Halu Natural
-                  </h1>
-                  <h1 class="font-semibold pt-3 text-xs md:text-sm text-green-500">
-                    Rp 115 000
-                  </h1>
-                </div>
-              </div>
-              <div class="hidden sm:flex mt-5 relative text-yellow-400 font-semibold border-2 px-2 border-yellow-400 rounded-md ml-7 ">
-                HOT
-              </div>
-            </div>
-          </div>
-
-          <div class="p-5 shadow-sm">
-            <div class=" flex sm:hidden justify-end my-2 ">
-              <div class=" text-yellow-400 text-xs md:text-md font-bold border-2 px-2 border-yellow-400 rounded-md ">
-                HOT
-              </div>
-            </div>
-            <div class="flex justify-center">
-              <img class=" h-28 md:h-60 rounded-2xl md:rounded-md  filter object-cover " src="~/assets/img/shop-product-3.png">
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="flex pt-5">
-                <div>
-                  <h1 class="text-green-800 text-xs md:text-lg font-semibold ">
-                    Kopi Arabika Halu Natural
-                  </h1>
-                  <h1 class="font-semibold pt-3 text-xs md:text-sm text-green-500">
-                    Rp 115 000
-                  </h1>
-                </div>
-              </div>
-              <div class="hidden sm:flex mt-5 relative text-yellow-400 font-semibold border-2 px-2 border-yellow-400 rounded-md ml-7 ">
-                HOT
-              </div>
-            </div>
-          </div>
-
-          <div class="p-5 shadow-sm">
-            <div class=" flex sm:hidden justify-end my-2 ">
-              <div class=" text-green-400 text-xs md:text-md font-bold border-2 px-2 border-green-400 rounded-md ">
-                BARU
-              </div>
-            </div>
-            <div class="flex justify-center">
-              <img class=" h-28 md:h-60 rounded-2xl md:rounded-md  filter object-cover " src="~/assets/img/shop-product-5.png">
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="flex pt-5">
-                <div>
-                  <h1 class="text-green-800 text-xs md:text-lg font-semibold ">
-                    Kopi Arabika Halu Natural
-                  </h1>
-                  <h1 class="font-semibold pt-3 text-xs md:text-sm text-green-500">
-                    Rp 115 000
-                  </h1>
-                </div>
-              </div>
-              <div class="hidden sm:flex mt-5 relative text-yellow-400 font-semibold border-2 px-2 border-yellow-400 rounded-md ml-7 ">
-                HOT
-              </div>
-            </div>
-          </div>
-
-          <div class="p-5 col-span-2 shadow-sm md:mr-10">
-            <div class=" flex sm:hidden justify-end my-2 ">
-              <div class=" animate-bounce text-blue-400 text-xs md:text-md font-bold border-2 px-2 border-blue-400 rounded-md ">
-                BUNDLE
-              </div>
-            </div>
-            <div class="flex justify-center">
-              <img class=" h-28 w-screen md:h-60 rounded-2xl md:rounded-md  filter object-cover " src="~/assets/img/shop-product-4.png">
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="flex pt-5">
-                <div>
-                  <h1 class="text-green-800 text-xs md:text-lg font-semibold ">
-                    Kopi Arabika Halu Natural
-                  </h1>
-                  <h1 class="font-semibold pt-7 md:pt-10 lg:pt-5 text-xs md:text-sm text-green-500">
-                    Rp 115 000
-                  </h1>
-                </div>
-              </div>
-              <div class="animate-bounce hidden sm:flex mt-5 relative text-blue-400 font-semibold border-2 px-2 border-blue-400 rounded-md ml-7 ">
-                BUNDLE
-              </div>
-            </div>
-          </div>
-
-          <div class="p-5 shadow-sm">
-            <div class=" flex sm:hidden justify-end my-2 ">
-              <div class=" text-yellow-400 text-xs md:text-md font-bold border-2 px-2 border-yellow-400 rounded-md ">
-                HOT
-              </div>
-            </div>
-            <div class="flex justify-center">
-              <img class=" h-28 md:h-60 rounded-2xl md:rounded-md  filter object-cover " src="~/assets/img/shop-product-6.png">
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="flex pt-5">
-                <div>
-                  <h1 class="text-green-800 text-xs md:text-lg font-semibold ">
-                    Kopi Arabika Halu Natural
-                  </h1>
-                  <h1 class="font-semibold pt-3 text-xs md:text-sm text-green-500">
-                    Rp 115 000
-                  </h1>
-                </div>
-              </div>
-              <div class="hidden sm:flex mt-5 relative text-yellow-400 font-semibold border-2 px-2 border-yellow-400 rounded-md ml-7 ">
-                HOT
-              </div>
-            </div>
-          </div>
-
-          <div class="p-5 shadow-sm">
-            <div class=" flex sm:hidden justify-end my-2 ">
-              <div class=" text-yellow-400 text-xs md:text-md font-bold border-2 px-2 border-yellow-400 rounded-md ">
-                HOT
-              </div>
-            </div>
-            <div class="flex justify-center">
-              <img class=" h-28 md:h-60 rounded-2xl md:rounded-md  filter object-cover " src="~/assets/img/shop-product-7.png">
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="flex pt-5">
-                <div>
-                  <h1 class="text-green-800 text-xs md:text-lg font-semibold ">
-                    Kopi Arabika Halu Natural
-                  </h1>
-                  <h1 class="font-semibold pt-3 text-xs md:text-sm text-green-500">
-                    Rp 115 000
-                  </h1>
-                </div>
-              </div>
-              <div class="hidden sm:flex mt-5 relative text-yellow-400 font-semibold border-2 px-2 border-yellow-400 rounded-md ml-7 ">
-                HOT
-              </div>
-            </div>
-          </div>
-
-          <div class="p-5 shadow-sm">
-            <div class=" flex sm:hidden justify-end my-2 ">
-              <div class=" text-green-400 text-xs md:text-md font-bold border-2 px-2 border-green-400 rounded-md ">
-                BARU
-              </div>
-            </div>
-            <div class="flex justify-center">
-              <img class=" h-28 md:h-60 rounded-2xl md:rounded-md  filter object-cover " src="~/assets/img/shop-product-1.png">
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="flex pt-5">
-                <div>
-                  <h1 class="text-green-800 text-xs md:text-lg font-semibold ">
-                    Kopi Arabika Halu Natural
-                  </h1>
-                  <h1 class="font-semibold pt-3 text-xs md:text-sm text-green-500">
-                    Rp 115 000
-                  </h1>
-                </div>
-              </div>
-              <div class="hidden sm:flex mt-5 relative text-yellow-400 font-semibold border-2 px-2 border-yellow-400 rounded-md ml-7 ">
-                HOT
-              </div>
-            </div>
-          </div>
+          <cards-product
+            v-for="product in products"
+            :key="product.id"
+            :is-merged="product.id=== 5"
+            :payload="product"
+            :name="product.name"
+            :category="product.category"
+            :price="product.price"
+            :img="product.img"
+          />
         </div>
-      </div>
-      <div class="mx-5 lg:flex lg:justify-evenly flex-row py-20 md:pt-20 md:px-10 items-center">
-        <div>
-          <h1 class="lg:absolute text-green-700 font-bold text-3xl">
-            What others say about our coffee
-          </h1>
-          <p class="text-gray-500 pt-2 lg:pt-14 md:text-md text-sm font-light">
-            Discover what those who have ventured on the journey have to say.
-          </p>
-          <div class="hidden lg:flex  mt-20 ">
+
+        <div class="mx-5 lg:flex lg:justify-evenly flex-row py-20 md:pt-32 md:px-10 items-center">
+          <div>
+            <h1 class="lg:absolute text-green-700 font-bold text-3xl">
+              What others say about our coffee
+            </h1>
+            <p class="text-gray-500 pt-2 lg:pt-14 md:text-md text-sm font-light">
+              Discover what those who have ventured on the journey have to say.
+            </p>
+            <div class="hidden lg:flex  mt-20 ">
+              <button class="flex bg-green-600 text-white text-lg font-semibold focus:outline-none border-2 border-green-600 rounded-md px-4 py-1 uppercase mt-10 md:mt-20 lg:mt-32 " @click="previous">
+                <
+              </button>
+              <button class="flex ml-10 bg-green-600 text-white text-lg focus:outline-none font-semibold border-2 border-green-600 rounded-md px-4 py-1 uppercase mt-10 md:mt-20 lg:mt-32 " @click="next">
+                >
+              </button>
+            </div>
+          </div>
+          <div class=" flex lg:justify-end justify-center ">
+            <div class=" max-w-xs md:max-w-screen-md -pt-10 sm:-pl-32 ">
+              <transition-group class="flex justify-center items-center overflow-hidden" tag="div">
+                <div v-for="slide in slides" :key="slide.id" class=" transition ease-in py-10 duration-150 ">
+                  <div class="w-96 md:ml-10 flex px-10  items-start md:mt-10 bg-white h-full p-5 rounded-lg shadow md:shadow-lg">
+                    <img class="mt-10 border-4 border-green-500 md:mt-0 w-20 h-20 rounded-full  object-cover" :src="require(`@/assets/img/${slide.images}`)">
+                    <div class="ml-5">
+                      <h1 class="text-gray-700  md:text-lg text-md font-bold">
+                        {{ slide.name }}
+                      </h1>
+                      <h1 class="text-gray-600 pt-1  md:text-md  text-sm font-normal">
+                        {{ slide.position }}
+                      </h1>
+                      <p class="text-gray-500 pt-2   text-sm font-light">
+                        {{ slide.description }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </transition-group>
+            </div>
+          </div>
+          <div class=" lg:hidden  flex justify-between  mt-2 ">
             <button class="flex bg-green-600 text-white text-lg font-semibold focus:outline-none border-2 border-green-600 rounded-md px-4 py-1 uppercase mt-10 md:mt-20 lg:mt-32 " @click="previous">
               <
             </button>
@@ -267,41 +101,9 @@
             </button>
           </div>
         </div>
-        <div class=" flex lg:justify-end justify-center ">
-          <div class=" max-w-xs md:max-w-screen-md -pt-10 sm:-pl-32 ">
-            <transition-group class="flex justify-center items-center overflow-hidden" tag="div">
-              <div v-for="slide in slides" :key="slide.id" class=" transition ease-in py-10 duration-150 ">
-                <div class="w-96 md:ml-10 flex px-10  items-start md:mt-10 bg-white h-full p-5 rounded-lg shadow md:shadow-lg">
-                  <img class="mt-10 border-4 border-green-500 md:mt-0 w-20 h-20 rounded-full  object-cover" :src="'~/assets/img/'+slide.images+'.jpg'">
-                  <div class="ml-5">
-                    <h1 class="text-gray-700  md:text-lg text-md font-bold">
-                      {{ slide.name }}
-                    </h1>
-                    <h1 class="text-gray-600 pt-1  md:text-md  text-sm font-normal">
-                      {{ slide.position }}
-                    </h1>
-                    <p class="text-gray-500 pt-2   text-sm font-light">
-                      {{ slide.description }}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </transition-group>
-          </div>
-        </div>
-        <div class=" lg:hidden  flex justify-between  mt-2 ">
-          <button class="flex bg-green-600 text-white text-lg font-semibold focus:outline-none border-2 border-green-600 rounded-md px-4 py-1 uppercase mt-10 md:mt-20 lg:mt-32 " @click="previous">
-            <
-          </button>
-          <button class="flex ml-10 bg-green-600 text-white text-lg focus:outline-none font-semibold border-2 border-green-600 rounded-md px-4 py-1 uppercase mt-10 md:mt-20 lg:mt-32 " @click="next">
-            >
-          </button>
-        </div>
-      </div>
-    </div>
 
-    <!-- <div class="pt-20 md:pt-52 mb-10">
-      <h1 class="text-2xl px-5 md:text-3xl xl:px-18 md:px-14 tracking-wide text-gray-700 font-bold md:text-center">
+        <!-- <div class="pt-20 md:pt-52 mb-10">
+      <h1 class="headline">
         Lorem ipsum dolor sit amet, consectetur
       </h1>
       <div class="md:pt-20 flex justify-between  items-center ">
@@ -334,19 +136,21 @@
         </div>
       </div>
     </div> -->
+      </div>
+    </div>
 
-    <div class="flex md:pt-32">
-      <div class="w-2/3  bg-yellow-100 p-10 ">
-        <h1 class="text-lg text-center md:text-left text-green-700 font-semibold pt-3 ">
+    <div class="flex md:pt-20">
+      <div class="w-2/3  bg-yellow-100 p-5 md:p-10 ">
+        <h1 class="md:text-lg text-md text-center md:text-left text-green-700 font-semibold pt-3 ">
           #BangkitBersamaUMKM #KopiSatu
         </h1>
-        <h1 class="text-3xl text-center md:text-left text-green-600 font-semibold mt-3 ">
+        <h1 class="md:text-3xl text-xl text-center md:text-left text-green-600 font-semibold mt-3 ">
           Rasakan racikan terbaik dari biji pilihan kopi Indonesia
         </h1>
-        <p class="text-gray-500 pt-5  md:text-md text-sm font-light">
+        <p class="text-gray-500 pt-5  md:text-md text-xs md:text-sm font-light">
           Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana".
         </p>
-        <button class="bg-green-600 text-white text-lg font-semibold border-2 border-green-600 rounded-md px-4 py-1 uppercase mt-10 md:mt-20 lg:mt-32 ">
+        <button class="bg-green-600 text-white text-sm md:text-lg font-semibold border-2 border-green-600 rounded-md px-4 py-1 uppercase mt-10 md:mt-20 lg:mt-32 ">
           Pesan Sekarang
         </button>
       </div>
@@ -356,39 +160,46 @@
     </div>
 
     <Footer />
+    <getButton />
   </div>
 </template>
 <script>
+import data from './data'
 export default {
   data () {
     return {
+      products: data,
       slides: [{
         id: 1,
-        images: 'about-avatar-2',
+        images: 'about-avatar-2.jpg',
         name: 'Yustinus S.',
         position: 'CEO of E-Fishery',
         description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
       },
       {
         id: 2,
+        images: 'about-avatar-3.jpg',
         name: 'Marko Palandini',
         position: 'Staff of Angkasa Pura 1',
         description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
       },
       {
         id: 3,
+        images: 'about-avatar-3.jpg',
         name: 'Marcell Antonius',
         position: 'CTO of Buyyo.id',
         description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
       },
       {
         id: 4,
+        images: 'about-avatar-4.jpg',
         name: 'Jane Luckman Haris',
         position: 'Staff of Marketing BCA ',
         description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
       },
       {
         id: 5,
+        images: 'about-avatar-5.jpg',
         name: 'Pratama Dinureja',
         position: 'Marketing Intern Readyleanr',
         description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
@@ -397,6 +208,7 @@ export default {
     }
   },
   methods: {
+
     next () {
       const first = this.slides.shift()
       this.slides = this.slides.concat(first)
@@ -406,5 +218,6 @@ export default {
       this.slides = [last].concat(this.slides)
     }
   }
+
 }
 </script>

@@ -26,89 +26,20 @@
           <img class=" mt-10 md:mt-0 h-80 w-full md:h-1/3 lg:h-64 rounded-2xl md:rounded-3xl  filter object-cover md:ml-20" src="~/assets/img/home-product.jpg">
         </div>
         <div class="md:pt-20">
-          <h1 class="text-2xl md:text-3xl pt-10 tracking-wide text-gray-700 font-bold md:text-center">
+          <h1 class="headline">
             Meet with our teams
           </h1>
           <div class=" md:flex md:justify-evenly flex-row justify-center  md:mx-20  md:mt-20">
-            <div class="md:w-1/2 md:mx-16 mt-14 md:mt-10 ">
-              <div class="flex justify-center">
-                <img class="left-0 top-0 mt-10  md:mt-0 w-40 h-40 rounded-full  filter object-cover" src="~/assets/img/about-avatar-1.jpg">
-              </div>
-              <h1 class="text-gray-700 text-center md:text-2xl text-xl font-bold pt-5 ">
-                Reza Zakaria
-              </h1>
-              <h1 class="text-gray-600 pt-1 text-center md:text-lg  text-md font-normal">
-                Chairman & Co-Founders
-              </h1>
-              <p class="text-gray-500 pt-2 text-center md:text-md text-sm font-light">
-                Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana".
-              </p>
-            </div>
-            <div class="md:w-1/2 md:mx-16 mt-14 md:mt-10 ">
-              <div class="flex justify-center">
-                <img class="left-0 top-0 mt-10  md:mt-0 w-40 h-40 rounded-full  filter object-cover" src="~/assets/img/about-avatar-3.jpg">
-              </div>
-              <h1 class="text-gray-700 text-center md:text-2xl text-xl font-bold pt-5 ">
-                Jesica Ling
-              </h1>
-              <h1 class="text-gray-600 pt-1 text-center md:text-lg  text-md font-normal">
-                Chairman & Co-Founders
-              </h1>
-              <p class="text-gray-500 pt-2 text-center md:text-md text-sm font-light">
-                Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana".
-              </p>
-            </div>
+            <profile-top-lead name="Reza Zakaria" img="about-avatar-1.jpg" position="CEO & Co-Founder" description=" Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri '50 Financial Wisdom' dan 'Berwisata ke Dunia Reksadana'." />
+            <profile-top-lead name="Jesica Ling" img="about-avatar-3.jpg" position="Chairman & Co-Founders" description=" Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri '50 Financial Wisdom' dan 'Berwisata ke Dunia Reksadana'." />
           </div>
 
-          <div class=" md:flex md:justify-evenly flex-row justify-center  md:mx-20  md:mt-20">
-            <div class=" md:mx-10 mt-14 md:mt-10 ">
-              <div class="flex justify-center">
-                <img class=" mt-10  md:mt-0 w-36 h-36 rounded-full  filter object-cover" src="~/assets/img/about-avatar-2.jpg">
-              </div>
-              <h1 class="text-gray-700 text-center md:text-2xl text-xl font-semibold pt-5 ">
-                Vincentius Pranoto W.
-              </h1>
-              <h1 class="text-gray-600 pt-1 text-center md:text-md  text-md font-normal">
-                Marketing & Business Eksekutor
-              </h1>
-            </div>
-            <div class=" md:mx-10 mt-14 md:mt-10 ">
-              <div class="flex justify-center">
-                <img class=" mt-10  md:mt-0 w-36 h-36 rounded-full  filter object-cover" src="~/assets/img/about-avatar-4.jpg">
-              </div>
-              <h1 class="text-gray-700 text-center md:text-2xl text-xl font-semibold pt-5 ">
-                Berdhi Pangabean
-              </h1>
-              <h1 class="text-gray-600 pt-1 text-center md:text-md  text-md font-normal">
-                Manager of Infrastructure
-              </h1>
-            </div>
-            <div class=" md:mx-10 mt-14 md:mt-10 ">
-              <div class="flex justify-center">
-                <img class=" mt-10  md:mt-0 w-36 h-36 rounded-full  filter object-cover" src="~/assets/img/about-avatar-5.jpg">
-              </div>
-              <h1 class="text-gray-700 text-center md:text-2xl text-xl font-semibold pt-5 ">
-                Yulia Ramadhani
-              </h1>
-              <h1 class="text-gray-600 pt-1 text-center md:text-md  text-md font-normal">
-                Digital Marketing
-              </h1>
-            </div>
-            <div class=" md:mx-10 mt-14 md:mt-10 ">
-              <div class="flex justify-center">
-                <img class=" mt-10  md:mt-0 w-36 h-36 rounded-full  filter object-cover" src="~/assets/img/about-avatar-6.jpg">
-              </div>
-              <h1 class="text-gray-700 text-center md:text-2xl text-xl font-semibold pt-5 ">
-                Mutia Sri Indriyani
-              </h1>
-              <h1 class="text-gray-600 pt-1 text-center md:text-md  text-md font-normal">
-                Social Marketer
-              </h1>
-            </div>
+          <div class=" md:flex md:justify-evenly flex-row justify-center  md:mx-20 pb-20 md:mt-20">
+            <profile-employee v-for="profile in profiles" :key="profile.id" :img="profile.img" :name="profile.name" :position="profile.position" />
           </div>
         </div>
 
-        <div class=" pt-20 lg:flex lg:justify-evenly flex-row py-20 md:pt-20 md:px-10 items-center">
+        <!-- <div class=" pt-20 lg:flex lg:justify-evenly flex-row py-20 md:pt-20 md:px-10 items-center">
           <div>
             <h1 class="text-green-700 font-bold text-3xl">
               What others say about us
@@ -130,7 +61,7 @@
               <transition-group class="flex justify-center items-center overflow-hidden" tag="div">
                 <div v-for="slide in slides" :key="slide.id" class=" transition ease-in py-10 duration-150 ">
                   <div class="w-96 lg:ml-10 flex ml-4  items-start md:mt-10 bg-white h-full p-5 rounded-lg shadow-lg">
-                    <img class="mt-10 border-4 border-green-500 md:mt-0 w-20 h-20 rounded-full  object-cover" :src="'~/assets/img/'+slide.images+'.jpg'">
+                    <img class="mt-10 border-4 border-green-500 md:mt-0 w-20 h-20 rounded-full  object-cover" :src="'~/assets/img/'+slide.img+'.jpg'">
                     <div class="ml-5">
                       <h1 class="text-gray-700  md:text-lg text-md font-bold">
                         {{ slide.name }}
@@ -155,47 +86,46 @@
               >
             </button>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <Footer />
+    <getButton />
   </div>
 </template>
 <script>
 export default {
   data () {
     return {
-      slides: [{
-        id: 1,
-        images: 'about-avatar-2',
-        name: 'Yustinus S.',
-        position: 'CEO of E-Fishery',
-        description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
-      },
-      {
-        id: 2,
-        name: 'Marko Palandini',
-        position: 'Staff of Angkasa Pura 1',
-        description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
-      },
-      {
-        id: 3,
-        name: 'Marcell Antonius',
-        position: 'CTO of Buyyo.id',
-        description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
-      },
-      {
-        id: 4,
-        name: 'Jane Luckman Haris',
-        position: 'Staff of Marketing BCA ',
-        description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
-      },
-      {
-        id: 5,
-        name: 'Pratama Dinureja',
-        position: 'Marketing Intern Readyleanr',
-        description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
-      }]
+      profiles: [
+        {
+          id: 2,
+          img: 'about-avatar-7.jpg',
+          name: 'Marko Palandini',
+          position: 'Staff of Angkasa Pura 1',
+          description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
+        },
+        {
+          id: 3,
+          img: 'about-avatar-2.jpg',
+          name: 'Marcell Antonius',
+          position: 'CTO of Buyyo.id',
+          description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
+        },
+        {
+          id: 4,
+          img: 'about-avatar-4.jpg',
+          name: 'Jane Luckman Haris',
+          position: 'Staff of Marketing BCA ',
+          description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
+        },
+        {
+          id: 5,
+          img: 'about-avatar-5.jpg',
+          name: 'Pratama Dinureja',
+          position: 'Marketing Intern Readyleanr',
+          description: 'Reza telah berkiprah di dunia keuangan dan investasi selama lebih dari 20 tahun. Penulis beberapa buku mengenai keuangan dan investasi; 6 Seri "50 Financial Wisdom" dan "Berwisata ke Dunia Reksadana.'
+        }]
     }
   },
   methods: {
@@ -210,22 +140,3 @@ export default {
   }
 }
 </script>
-<style >
-
-.carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-.slide {
-  flex: 0 0 100%;
-  display: flex;
-  justify-content: center;
-  padding: 50px 0;
-  transition: all .3s;
-  background: #ddd;
-  margin: 20px 0;
-}
-
-</style>

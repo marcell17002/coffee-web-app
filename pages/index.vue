@@ -2,8 +2,8 @@
   <div>
     <Header />
     <div class="max-w-screen-xl mx-auto">
-      <div class="md:pt-20 my-20 max-w-screen-xl mx-auto">
-        <div class="md:flex md:justify-between md:mx-5">
+      <div class="md:pt-10 my-20 max-w-screen-xl mx-auto">
+        <div class="md:flex md:justify-between items-center md:mx-5">
           <div class="md:mx-5 md:mb-20">
             <div class="flex justify-center md:justify-start">
               <h1 class="text-xl text-center text-green-700 font-bold">
@@ -12,7 +12,7 @@
               <div class=" text-center relative text-green-700 border-2 px-2 border-green-700 rounded-md ml-7 ">
                 Baru
               </div>
-              <span class="animate-ping absolute inline-flex h-3 w-3 ml-64 -mt-1  rounded-full bg-green-500 opacity-75" />
+              <span class="animate-ping absolute inline-flex h-3 w-3 ml-64 -mt-1  rounded-full bg-green-500 opacity-150" />
               <span class="relative inline-flex rounded-full h-3 w-3 -ml-2 -mt-1 bg-green-500" />
             </div>
             <h1 class="text-3xl text-center md:text-left text-green-600 font-semibold mt-3 ">
@@ -22,7 +22,7 @@
               #BangkitBersamaUMKM #KopiSatu
             </h1>
             <div class="flex justify-center md:justify-start">
-              <button class="flex bg-green-600 text-white text-lg font-semibold border-2 border-green-600 rounded-md px-4 py-1 uppercase mt-10 md:mt-20 lg:mt-32 ">
+              <button class="btn ">
                 Pesan Sekarang
               </button>
             </div>
@@ -30,13 +30,8 @@
               Kontak <span class="text-green-700 font-semibold">kami</span> dan rasakan <span class="text-green-700 font-semibold">kopi</span> pilihan kami
             </h1>
           </div>
-          <div class="xl:ml-80 mt-12 md:-mt-20 md:mr-5">
+          <div class="xl:ml-80  md:w-3/6 lg:w-2/6 lg:mr-24 mt-12 md:-mt-20 md:mr-5">
             <img class="md:h-full w-full h-80 rounded-md  object-cover " src="~/assets/img/home-product.jpg">
-          </div>
-          <div class=" hidden xl:block transform h-full w-1/12 mt-32 -rotate-90 ">
-            <h1 class="text-lg  text-green-700  text-center  font-bold">
-              Starbucks Coffee
-            </h1>
           </div>
         </div>
       </div>
@@ -51,10 +46,10 @@
         <h1 class="text-2xl  md:text-3xl xl:px-18 md:px-14  text-gray-700 font-bold md:text-center">
           <span class="text-green-700">#KopiAnakBangsa </span> tanpa ribet
         </h1>
-        <h1 class="text-sm  md:text-lg xl:px-18 md:px-14  text-gray-700 font-normal md:text-center">
+        <h1 class="text-sm md:pt-5 md:text-lg xl:px-18 md:px-14  text-gray-700 font-normal md:text-center">
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
         </h1>
-        <div class=" md:flex md:justify-evenly flex-row  md:mx-20  md:mt-20">
+        <div class=" md:flex md:justify-evenly flex-row  md:mx-20  md:mt-32">
           <div class="md:h-64 md:w-44 h-80 lg:w-52 mt-20 md:-mt-0 ">
             <img class=" h-full w-full md:h-full rounded-2xl  object-cover " src="~/assets/img/home-step-1.jpg">
             <h1 class="text-gray-700 text-lg font-semibold text-center pt-5">
@@ -73,7 +68,7 @@
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             </h1>
           </div>
-          <div class="md:h-64 md:w-44 lg:w-52 mt-32  h-80  md:ml-2 lg:-ml-5  md:-mt-0 ">
+          <div class="md:h-64 md:w-44 lg:w-52 mt-40  h-80  md:ml-2 lg:-ml-5  md:-mt-0 ">
             <img class=" h-full w-full md:h-full rounded-2xl  object-cover " src="~/assets/img/home-step-3.jpg">
             <h1 class="text-gray-700 text-lg font-semibold text-center pt-5">
               Penggilingan Menjadi Serbuk Kopi
@@ -82,7 +77,7 @@
               Lorem Ipsum of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             </h1>
           </div>
-          <div class="md:h-64 md:w-44 lg:w-52 mt-32  h-80  md:ml-2 lg:-ml-5 md:-mt-0  ">
+          <div class="md:h-64 md:w-44 lg:w-52 mt-40  h-80  md:ml-2 lg:-ml-5 md:-mt-0  ">
             <img class=" h-full w-full md:h-full rounded-2xl  object-cover " src="~/assets/img/home-step-4.jpg">
             <h1 class="text-gray-700 text-lg font-semibold text-center pt-5">
               Pengemasan Menjadi Produk Kopi
@@ -109,5 +104,9 @@
       <img class=" h-80 w-full md:h-1/3 filter blur-0 object-cover " src="~/assets/img/home-model.jpg">
     </div>
     <Footer />
+    <getButton />
   </div>
 </template>
+<style scoped lang="css">
+  @import "~/assets/css/tailwind.css";
+</style>
