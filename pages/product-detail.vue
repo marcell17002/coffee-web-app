@@ -13,7 +13,7 @@
                 {{ items.name }}
               </h1>
               <div class="mt-2 relative text-red-400 font-semibold border-2 px-2  border-red-400 rounded-md  md:ml-7 ">
-                75 000
+                {{ items.price }}
               </div>
             </div>
             <h1 class="text-xl  md:text-left text-green-600 font-semibold mt-2">
@@ -61,17 +61,18 @@
               {{ items.desc }}
             </p>
             <button class="mb-5 bg-green-600 text-white text-lg font-semibold border-2 border-green-600 rounded-md px-4 py-1 uppercase mt-10  ">
-              Pesan Sekarang
+              <a target="_blank" href="https://linktr.ee/Senjanoesantaracoffee">
+                Pesan Sekarang</a>
             </button>
           </div>
         </div>
       </div>
     </div>
-    <div class="pt-20 md:pt-20 mb-10">
+    <div class="pt-5 md:pt-20 mb-10">
       <h1 class="text-2xl px-5 md:text-3xl xl:px-18 md:px-14 tracking-wide text-gray-700 font-bold md:text-center">
         Our Suggestion
       </h1>
-      <div class="md:pt-10 flex justify-between  items-center ">
+      <div class="pt-10 md:pt-10 flex justify-between  items-center ">
         <div class="relative flex justify-center w-full  ">
           <button class=" ml-2 absolute left-0  mt-48 h-8 w-8 rounded-full p-2 bg-white text-gray-600 text-xl font-semibold  focus:outline-none    " @click="previous">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

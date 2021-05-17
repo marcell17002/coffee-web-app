@@ -13,3 +13,7 @@
 .category{
     @apply hidden sm:flex mt-5 relative text-blue-400 font-semibold border-2 px-2 border-blue-400 rounded-md ml-7
 }
+
+.desc {
+    @apply text-gray-500 pt-2 text-center md:text-lg text-sm font-light
+}

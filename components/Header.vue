@@ -2,8 +2,10 @@
   <div class="my-5 max-w-screen-xl  mx-auto z-20">
     <div class="flex items-center justify-between ml-5">
       <div class="flex">
-        <img class="h-14 md:h-20" src="~/assets/img/logo.png">
-        <div class="ml-20 hidden md:block md:-ml-4 lg:ml-4">
+        <nuxt-link to="/">
+          <img class="h-14 md:h-20" src="~/assets/img/logo.png">
+        </nuxt-link>
+        <div class="ml-20 hidden md:block md:-ml-4 mt-1 lg:ml-4">
           <ul class="flex p-5">
             <nuxt-link to="/">
               <li class="ml-5 text-md hover:text-green-900 text-gray-500 hover:border-green-900 border-transparent border-b-2 pb-5 ">
@@ -29,7 +31,7 @@
         </div>
       </div>
       <div class="block md:hidden mr-5">
-        <button class="flex bg-green-900 text-white hover:text-white items-center border rounded-md p-3 hover:bg-gray-400 focus:outline-none " @click="toggle">
+        <button :class="open ? 'focus:bg-gray-400' : 'focus:bg-green-900' " class="flex bg-green-900 text-white hover:text-white items-center border rounded-md p-3 focus:outline-none " @click="toggle">
           <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
         </button>
       </div>
@@ -53,7 +55,7 @@
         </div>
       </div>
     </div>
-    <div :class="open ? 'block': 'hidden'" class="w-full md:hidden flex-grow md:items-center md:w-auto px-5 my-10 border-b-2 md:border-b-0 pb-5">
+    <div :class="open ? 'block': 'hidden'" class="w-full md:hidden flex-grow md:items-center md:w-auto px-5 my-10 border-b-2 rounded-b-xl md:border-b-0 pb-5">
       <div class="text-sm md:flex-grow md:hidden">
         <nuxt-link to="/" class=" block text-sm md:text-xl hover:text-green-900 text-gray-500  pb-5 ">
           Home

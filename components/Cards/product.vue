@@ -4,10 +4,10 @@
       <div v-if="category === 'Baru'" class="animate-bounce text-green-400 text-xs md:text-md font-bold border-2 px-2 border-green-400 rounded-md ">
         Baru
       </div>
-      <div v-else-if="category === 'Bundle'" class=" text-blue-400 text-xs md:text-md font-bold border-2 px-2 border-green-400 rounded-md ">
+      <div v-else-if="category === 'Bundle'" class=" text-blue-400 text-xs md:text-md font-bold border-2 px-2 border-blue-400 rounded-md ">
         Bundle
       </div>
-      <div v-else-if="category === 'Hot'" class=" text-red-400 text-xs md:text-md font-bold border-2 px-2 border-green-400 rounded-md ">
+      <div v-else-if="category === 'Hot'" class=" text-red-400 text-xs md:text-md font-bold border-2 px-2 border-red-400 rounded-md ">
         HOT
       </div>
       <div v-else class=" text-yellow-400 text-xs md:text-md font-bold border-2 px-2 border-yellow-400 rounded-md ">

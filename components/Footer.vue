@@ -1,7 +1,9 @@
 <template>
   <div class=" bg-green-900">
     <div class="max-w-screen-xl mx-auto p-10 lg:pr-56">
-      <img class="h-20" src="~/assets/img/logo.png">
+      <nuxt-link to="/">
+        <img class="h-20" src="~/assets/img/logo.png">
+      </nuxt-link>
       <div class="flex justify-between my-10 flex-wrap">
         <div class="pb-5">
           <h2 class="text-white text-xl mb-5 font-bold">

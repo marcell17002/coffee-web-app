@@ -22,8 +22,9 @@
               #BangkitBersamaUMKM #KopiSatu
             </h1>
             <div class="flex justify-center md:justify-start">
-              <button class="btn ">
-                Pesan Sekarang
+              <button class="btn">
+                <a target="_blank" href="https://linktr.ee/Senjanoesantaracoffee">
+                  Pesan Sekarang</a>
               </button>
             </div>
             <h1 class="text-md text-center md:text-left text-gray-500  pt-3 ">

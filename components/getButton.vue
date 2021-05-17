@@ -3,7 +3,7 @@
   <script type="text/javascript">
     (function () {
     var options = {
-    whatsapp: "0895401011469", // WhatsApp number
+    whatsapp: "+62 895-4010-11469", // WhatsApp number
     instagram: "arntonius", // Instagram username
     call_to_action: "", // Call to action
     button_color: "#129BF4", // Color of button
