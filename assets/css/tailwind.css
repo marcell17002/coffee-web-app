@@ -15,5 +15,5 @@
 }
 
 .desc {
-    @apply text-gray-500 pt-2 text-center md:text-lg text-sm font-light
+    @apply text-gray-500 pt-2  md:text-lg text-sm font-light
 }

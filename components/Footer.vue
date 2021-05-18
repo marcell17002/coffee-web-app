@@ -33,9 +33,9 @@
           </h2>
           <ul class="-ml-5">
             <li class="ml-5 text-lg hover:text-white text-gray-300  my-2 ">
-              <nuxt-link to="about">
+              <a href="https://api.whatsapp.com/send?phone=62812-2455-7760&text=Hello+Reza%2C+saya+ingin+bekerja+sama+dengan+perusahaan+anda">
                 Mitra kami
-              </nuxt-link>
+              </a>
             </li>
           </ul>
         </div>
@@ -65,10 +65,10 @@
           <h2 class="text-white text-xl  mb-5 font-bold">
             Cari tau update kami
           </h2>
-          <div class="flex my-2 justify-around">
-            <a href="#"><i class="fa fa-facebook-f text-white" style="font-size:35px" /></a>
-            <a href="#"><i class="fa fa-instagram text-white" style="font-size:35px" /></a>
-            <a href="#"><i class="fa fa-youtube-play text-white" style="font-size:35px" /></a>
+          <div class="flex my-2 justify-around items-center">
+            <a href="https://www.instagram.com/arntonius/"><font-awesome-icon class="text-white text-4xl" :icon="['fab', 'facebook']" /></a>
+            <a href="https://www.instagram.com/arntonius/"><font-awesome-icon class="text-white text-4xl" :icon="['fab', 'instagram']" /></a>
+            <a href="https://www.instagram.com/arntonius/"><font-awesome-icon class="text-white text-4xl" :icon="['fab', 'youtube']" /></a>
           </div>
         </div>
       </div>
@@ -78,6 +78,35 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  sendMail () {
+    $.ajax({
+      type: 'POST',
+      url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+      data: {
+        key: 'YOUR API KEY HERE',
+        message: {
+          from_email: 'YOUR@EMAIL.HERE',
+          to: [
+            {
+              email: 'RECIPIENT@EMAIL.HERE',
+              name: 'RECIPIENT NAME (OPTIONAL)',
+              type: 'to'
+            }
+          ],
+          autotext: 'true',
+          subject: 'YOUR SUBJECT HERE!',
+          html: 'YOUR EMAIL CONTENT HERE! YOU CAN USE HTML!'
+        }
+      }
+    }).done(function (response) {
+      console.log(response) // if you're into that sorta thing
+    })
+  }
+}
+</script>
 <style>
  @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 </style>

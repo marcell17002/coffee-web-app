@@ -71,10 +71,11 @@
               </button>
             </div>
           </div>
+
           <div class=" flex lg:justify-end justify-center ">
             <div class=" max-w-xs md:max-w-screen-md -pt-10 sm:-pl-32 ">
               <transition-group class="flex justify-center items-center overflow-hidden" tag="div">
-                <div v-for="slide in slides" :key="slide.id" class=" transition ease-in py-10 duration-150 ">
+                <div v-for="slide in slides" :key="slide.id" v-touch:swipe.left="previous" v-touch:swipe.right="next" class=" transition ease-in py-10 duration-150 ">
                   <div class="w-96 md:ml-10 flex px-10  items-start md:mt-10 bg-white h-full p-5 rounded-lg shadow md:shadow-lg">
                     <img class="mt-10 border-4 border-green-500 md:mt-0 w-20 h-20 rounded-full  object-cover" :src="require(`@/assets/img/${slide.images}`)">
                     <div class="ml-5">
@@ -166,7 +167,11 @@
   </div>
 </template>
 <script>
+import Vue from 'vue'
+import Vue2TouchEvents from 'vue2-touch-events'
 import data from './data'
+
+Vue.use(Vue2TouchEvents)
 export default {
   data () {
     return {

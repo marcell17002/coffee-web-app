@@ -9,7 +9,7 @@
     <h1 class="text-gray-600 pt-1 text-center md:text-lg  text-md font-normal">
       {{ position }}
     </h1>
-    <p class="desc">
+    <p class="desc text-center">
       {{ description }}
     </p>
   </div>
