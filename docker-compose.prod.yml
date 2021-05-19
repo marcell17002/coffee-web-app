@@ -1,0 +1,37 @@
+version: "3"
+
+services:
+  nuxt:
+    image: marcell17002/noesantara-web:latest
+    container_name: coffee-website
+    environment: 
+      VIRTUAL_HOST: "noesantara-coffee.com"
+      LETSENCRYPT_HOST: "noesantara-coffee.com"
+      VIRTUAL_PORT : "3000"
+      DEFAULT_EMAIL: "marcellantonius18@gmail.com"
+
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    restart: always
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - conf:/etc/nginx/conf.d
+      - vhost:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+      - dhparam:/etc/nginx/dhparam
+      - certs:/etc/nginx/certs:ro
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+  letsencrypt:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    restart: always
+    container_name: nginx-proxy-le
+    volumes_from:
+      - nginx-proxy
+    volumes:
+      - certs:/etc/nginx/certs:rw
+      - acme:/etc/acme.sh
+      - /var/run/docker.sock:/var/run/docker.sock:ro
